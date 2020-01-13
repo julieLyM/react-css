@@ -1,0 +1,22 @@
+body{
+    background-color: pink;
+}
+
+.container {
+    margin: 10px;
+}
+.containerTitle {
+    background-color: gray;
+    margin: 10px;
+}
+
+.content {
+    background-color: #F50;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.content.open {
+    max-height: 1000px;;
+}
